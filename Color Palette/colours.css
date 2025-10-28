@@ -1,0 +1,25 @@
+:root {
+  /* Primary Colour */
+  --primary-1: #786DBE;
+  --primary-2: #584BA5;
+  --primary-3: #40297F;
+  --primary-4: #2C1C7C;
+  --primary-5: #1C0D5B;
+  --primary-6: #0D003C;
+
+  /* Secondary Colour #1 */
+  --secondary1-1: #916EBA;
+  --secondary1-2: #7241A1;
+  --secondary1-3: #522794;
+  --secondary1-4: #3E1C84;
+  --secondary1-5: #310F75;
+  --secondary1-6: #1E005C;
+
+  /* Secondary Colour #2 */
+  --secondary2-1: #6882B9;
+  --secondary2-2: #4B6BA5;
+  --secondary2-3: #2A4C92;
+  --secondary2-4: #1A3C82;
+  --secondary2-5: #183778;
+  --secondary2-6: #0A255E;
+}

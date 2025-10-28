@@ -1,0 +1,99 @@
+- 7th December
+- In pairs
+- Pair
+	> Lea-line Saad
+	> David Mould
+- GitHub copilot can be used for syntax checking/code gen (but be careful/LINTing)
+- Document 60%
+	> Table of contents
+		+ Section headers
+		+ Table of figures
+	> Introduction (scenario)
+	> Overview of the app function envisaged
+		+ Background
+			{ Data sources app will use - public, private, licensed, APIs, user input }
+		+ Core functions
+			{ Focusing into the services which are essential to the apps function consider }
+		+ Advanced functions
+			{ Not developed into functionality of POC }
+		+ Data protection
+	> Implementation
+		+ User interface
+			{ Wireframes, planning, Figma }
+		+ Technology stack
+			{ Justification for choices }
+		+ Data organisation
+			{ DB structure, ERD }
+			{ How APIs are arranged, templates }
+			{ SQL, REST, GraphQL?}
+		+ Hosting
+			{ Vercel, Next.js hosting through Vercel anyway }
+			{ Free initially, scalable to requirements }
+		+  Scalability
+			{ What factors may affect scalability, DB sizing, server space }
+		+ Tracking and statistics
+			{ Metrics on user clicking/presses, what software }
+	> Conclusion - Why site detailed fits brief/specification
+	> References/Appendix
+- App 40%
+
+// References
+Ticketing
+	> Options
+		// Pricing
+		> https://www.eventbrite.co.uk/organizer/features/sell-tickets/ - United Kingdom - 6.95% + £0.59 per sold ticket
+		> https://www.ticketsource.co.uk/ - 7% + VAT per paid booking* including all credit / debit card processing costs *minimum booking fee £0.25 + VAT per paid booking
+		> https://www.ticketmaster.co.uk/ - ???
+
+		//Features
+		> https://www.eventbrite.co.uk/organizer/features/sell-tickets/ & https://www.ticketsource.co.uk/
+		> Can pass costs of booking fees to customers
+
+		> https://www.ticketsource.co.uk/
+		= Credit / debit card processing costs, Seating Plans, Email Support, Telephone Support, Live Chat Support, Ticket Buyer Support, Refunding Cancelled Events
+API
+	> https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js?_gl=1*legtv7*_up*MQ..*_ga*MTY0MTEzNzg1Ni4xNzU5MjI0OTQz*_ga_SM8HXJ53K2	*czE3NTkyMjQ5NDMkbzEkZzAkdDE3NTkyMjQ5NDMkajYwJGwwJGgw*_ga_NRWSTWS78N*czE3NTkyMjQ5NDMkbzEkZzAkdDE3NTkyMjQ5NDgkajU1JGwwJGgw
+	RULES/REGULATIONS
+	> https://www.stadefrance.com/en/practical-information/prohibited-items
+	> https://developers.google.com/maps/documentation/places/web-service?_gl=1*t8wz01*_up*MQ..*_ga*NjUyODY2MDQxLjE3NTkyMjUwNDA.*_ga_NRWSTWS78N*czE3NTkyMjUwNDAkbzEkZzEkdDE3NTkyMjUwNDIkajU4JGwwJGgw*_ga_SM8HXJ53K2	*czE3NTkyMjUwNDAkbzEkZzAkdDE3NTkyMjUwNDAkajYwJGwwJGgw
+
+// Functionality
+- TICKETING TO BE DEALT WITH EXTERNALLY
+- BASIC SEARCH FEATURE (TEAMS, NAMES, AREAS, SPORTS ETC;)
+- SHOW SCORING (MAPPED?)
+	> PER SPORT PAGES
+	> PER TEAM PAGES
+- LOCATION MAP
+- ACCESS LEVELS
+	> SITE ADMIN
+		- GENERAL OVERALL ADMINISTRATOR ACCESS
+	> TEAM PAGE ADMIN
+		- MANAGES TEAM PAGES, ALLOWS ADDING PLAYERS, SETTING DETAILS FOR TEAM, MODERATING TEAM PAGE
+	> TEAM MEMBERS
+		-  CAN VIEW TEAM PAGES, CAN AMEND THEIR OWN PROFILE
+	> USERS
+		- VIEWING TICKETS, FOLLOWING OF TEAMS/PLAYERS/SPORTS. (API PULL TICKET DETAILS THROUGH MATCHING EMAIL, CHECK IF POSSIBLE?)
+- TEAM PAGES
+	> SPACE FOR TEAMS, ADDING OF PLAYERS/MEMBERS
+	> CAN POST UPDATES THAT WILL BE SENT TO FOLLOWING USERS VIA EMAIL/NOTIFICATION/ACCOUNT
+	> TEAM MEMBERS CAN COMMINICATE VIA BOARD
+	> RULES
+- AI CHATBOT FOR HELP? CHATBOT LINK? SOMETHING
+- EVENTS CALENDAR
+- MERCH PAGES?
+- BUSINESS LICENSING PAGE? EXTERNAL?
+- !!! COOKIES !!!
+- MEDIA PAGE, LIVE LINKS? 
+- HISTORICAL SCORINGS?
+- VISITOR RULES
+- SEATING AREAS
+- FAQS
+- CONTACT PAGE
+- SOCIAL MEDIA LINKS
+- HEALTH AND SAFETY
+- NEARBY AREAS/HOTELS/FOOD
+- ACCESSIBILITY
+	> ALSO UI/UX FOR ACCESSIBILITY
+- AVERAGE NUMBER OF VISITORS - https://bofagames.com/ "between 8,000 and 10,000 people"
+		
+		
