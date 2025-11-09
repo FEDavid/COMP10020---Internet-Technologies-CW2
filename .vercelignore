@@ -1,0 +1,29 @@
+# Build outputs / caches
+.next/
+.turbo/
+.cache/
+dist/
+build/
+out/
+
+# Dependencies / package managers
+node_modules/
+.pnpm-store/
+.bun/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+
+# VCS / tooling
+.git/
+.github/
+.vscode/
+.DS_Store
+*.log
+coverage/
+.nyc_output/
+
+# Local env & misc
+.env
+.env.*
+*.local
