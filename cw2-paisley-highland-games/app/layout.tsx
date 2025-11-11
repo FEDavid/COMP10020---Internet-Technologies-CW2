@@ -37,7 +37,7 @@ export default function RootLayout({
           ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <main id="content" className="mx-4 sm:mx-8">
+        <main id="content" className="mx-4 sm:mx-8 w-5/6 sm:w-2/3 justify-self-center">
           {children}
         </main>
         <Footer />

@@ -3,7 +3,7 @@
 import { sql } from '@/app/lib/db';
 import { revalidatePath } from 'next/cache';
 
-export async function DeleteComment(id: number) {
-  await sql`DELETE FROM comments WHERE id = ${id}`;
+export async function DeleteTeam(id: number) {
+  await sql`DELETE FROM teams WHERE team_id = ${id}`;
   revalidatePath('/teams');
 }

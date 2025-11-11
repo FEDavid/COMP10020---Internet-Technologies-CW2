@@ -1,18 +1,17 @@
 // Page component for the Teams page
 import { ReadAll } from './actions/server/read';
-import { NewComment } from './actions/server/create';
-import AddCommentForm from './actions/client/AddComment';
+import AddTeamForm from './actions/client/AddTeam';
 
-export default function Teams() {
+export default async function Teams() {
     return (
         <section>
-            {/* View comments */}
-            <div id="viewComments">
-                <ReadAll />
+            {/* Add Team Form */}
+            <div id="addTeams" className='mt-8'>
+                <AddTeamForm />
             </div>
-            {/* Add Comment Form */}
-            <div id="addComments" className='mt-8'>
-                <AddCommentForm />
+            {/* View teams */}
+            <div id="viewTeams">
+                {await ReadAll()}
             </div>
         </section>
     );

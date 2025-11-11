@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center py-2 bg-(--background) h-full">
+    <section className="flex flex-col items-center justify-center py-2 bg-(--background) h-full w-full">
       <h1 className="text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100">
         Welcome to the Paisley Highland Games!
       </h1>

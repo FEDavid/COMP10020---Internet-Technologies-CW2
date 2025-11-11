@@ -4,14 +4,14 @@ import { sql } from '@/app/lib/db';
 import { revalidatePath } from 'next/cache';
 
 // Update an existing comment
-export async function UpdateComment(id: number, newComment: string) {
-  await sql`UPDATE comments SET comment = ${newComment} WHERE id = ${id}`;
+export async function UpdateTeam(id: number, newLocation: string) {
+  await sql`UPDATE teams SET team_location = ${newLocation} WHERE team_id = ${id}`;
   revalidatePath('/teams');
 }
 
 // Handle the update form submission
 export async function HandleUpdate(formData: FormData) {
   const id = Number(formData.get('id'));
-  const comment = String(formData.get('comment'));
-  await UpdateComment(id, comment);
+  const newLocation = String(formData.get('team_location'));
+  await UpdateTeam(id, newLocation);
 }
