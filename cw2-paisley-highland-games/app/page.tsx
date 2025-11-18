@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center py-2 bg-(--background) h-full w-full">
-      <h1 className="text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+      <h1 className="text-4xl font-bold mb-6 text-[#43619f]">
         Welcome to the Paisley Highland Games!
       </h1>
       <p className="text-lg text-center max-w-2xl mb-8 text-gray-700 dark:text-gray-300">Experience the thrill of traditional Scottish sports, music, and culture right here in Paisley. Join us for a day filled with excitement, camaraderie, and unforgettable memories!
