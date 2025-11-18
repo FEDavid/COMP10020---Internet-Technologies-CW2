@@ -37,10 +37,10 @@ export default function Navbar() {
             </div>
             <div id="rightside_nav" className="flex flex-row gap-8 items-center">
                 <div id="searchbar" className="w-48 bg-gray-300 rounded-4xl px-3 py-1 text-(--background)">Search</div>
-                <div id="profile_section" className="flex flex-row items-center gap-2 cursor-pointer bg-(--background) px-3 py-1 rounded-4xl hover:shadow-md">
+                <Link href="/profile" className="flex flex-row items-center gap-2 cursor-pointer bg-(--background) px-3 py-1 rounded-4xl hover:shadow-md">
                     <p className="px-2">Login</p>
                     <div id="profile_icon" className="w-8 h-8 bg-gray-400 rounded-full inline-block"></div>
-                </div>
+                </Link>
             </div>
         </nav>
     );
