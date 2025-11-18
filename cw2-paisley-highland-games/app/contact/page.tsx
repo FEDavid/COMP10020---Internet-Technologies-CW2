@@ -10,7 +10,6 @@ return (
 
     <form className="flex flex-col w-full max-w-xl gap-6">
 
-        {/* Email */}
         <label className="text-sm font-semibold">Email</label>
         <input
         type="email"
@@ -18,14 +17,12 @@ return (
         placeholder="your-email@example.com"
         />
 
-        {/* Message */}
         <label className="text-sm font-semibold">Write your message</label>
         <textarea
         className="w-full h-32 p-3 rounded-lg border border-black bg-[#43619f] text-white"
         placeholder="Your message..."
         />
 
-        {/* Submit button */}
         <button
         type="submit"
         className="mt-4 py-3 px-6 bg-[#14182f] hover:bg-[#1c2143] text-white font-semibold rounded-xl shadow-md"
