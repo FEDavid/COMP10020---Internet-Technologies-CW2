@@ -1,7 +1,7 @@
 // File: cw2-paisley-highland-games/app/(pages)/profile/page.tsx
 import Image from "next/image";
 
-export default async function Teams() {
+export default async function Profile() {
     return (
         <section id="profile_section" className="mt-16 bg-(--secondary1-2) rounded-2xl p-6 shadow-md/10">
             <div id="profileDetails" className="grid grid-cols-[1fr_112px] gap-4">
@@ -25,7 +25,7 @@ export default async function Teams() {
             <div id="profileActions" className="flex flex-col md:flex-row gap-4">
                 <button className="bg-(--secondary1-3) text-white px-4 py-2 rounded-lg hover:bg-(--secondary1-4) transition shadow-sm">Edit Profile</button>
                 <button className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-red-800 transition shadow-sm">Logout</button>
-                <button className="bg-red-400 text-white px-4 py-2 rounded-lg hover:bg-red-500 transition shadow-sm">GDPR</button>
+                <Link href="/gdpr" className="bg-red-400 text-white px-4 py-2 rounded-lg hover:bg-red-500 transition shadow-sm">GDPR</Link>
             </div>
         </section>
     );
