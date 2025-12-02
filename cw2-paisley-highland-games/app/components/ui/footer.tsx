@@ -7,7 +7,7 @@ return (
     <footer className="w-full bg-[#402f97] px-8 py-4 shadow-md">
         <ul className="flex space-x-6 justify-center">
             <li>
-                <Link href="/privacy" className="text-gray-800 dark:text-gray-200 hover:underline">
+                <Link href="/gdpr" className="text-gray-800 dark:text-gray-200 hover:underline">
                     Privacy Policy
                 </Link>
             </li>

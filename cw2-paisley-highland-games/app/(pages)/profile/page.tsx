@@ -25,6 +25,7 @@ export default async function Teams() {
             <div id="profileActions" className="flex flex-col md:flex-row gap-4">
                 <button className="bg-(--secondary1-3) text-white px-4 py-2 rounded-lg hover:bg-(--secondary1-4) transition shadow-sm">Edit Profile</button>
                 <button className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-red-800 transition shadow-sm">Logout</button>
+                <button className="bg-red-400 text-white px-4 py-2 rounded-lg hover:bg-red-500 transition shadow-sm">GDPR</button>
             </div>
         </section>
     );
