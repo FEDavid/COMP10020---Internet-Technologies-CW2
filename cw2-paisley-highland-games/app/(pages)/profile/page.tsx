@@ -1,5 +1,6 @@
 // File: cw2-paisley-highland-games/app/(pages)/profile/page.tsx
 import Image from "next/image";
+import Link from "next/link";
 
 export default async function Profile() {
     return (
